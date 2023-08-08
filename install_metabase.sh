@@ -7,7 +7,7 @@ sudo apt update
 sudo apt install -y default-jre sqlite3
 
 # Download Metabase JAR file
-METABASE_VERSION="0.41.1"  # Change this to the desired Metabase version
+METABASE_VERSION="0.45"  # Change this to the desired Metabase version
 wget "https://downloads.metabase.com/v${METABASE_VERSION}/metabase.jar"
 
 # Create a directory for Metabase data
